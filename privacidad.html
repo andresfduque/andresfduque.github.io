@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad — rclone personal</title>
+<style>
+  :root { color-scheme: light dark; --fondo:#ffffff; --texto:#1e293b; --suave:#64748b; --linea:#e2e8f0; }
+  @media (prefers-color-scheme: dark) { :root { --fondo:#0f172a; --texto:#e2e8f0; --suave:#94a3b8; --linea:#1e293b; } }
+  body { background:var(--fondo); color:var(--texto); font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+         line-height:1.65; margin:0; padding:3rem 16px; }
+  main { max-width:44rem; margin:0 auto; }
+  h1 { font-size:1.6rem; margin:0 0 .25rem; }
+  .fecha { color:var(--suave); font-size:.9rem; margin-bottom:2rem; }
+  h2 { font-size:1.1rem; margin-top:2.25rem; }
+  ul { padding-left:1.2rem; }
+  code { background:var(--linea); padding:.1rem .35rem; border-radius:.25rem; font-size:.9em; }
+  footer { margin-top:3rem; padding-top:1rem; border-top:1px solid var(--linea); color:var(--suave); font-size:.9rem; }
+  a { color:#31849b; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad</h1>
+  <p class="fecha">Aplicación «rclone personal» · 9 de octubre de 2026</p>
+
+  <h2>Qué es esta aplicación</h2>
+  <p>«rclone personal» es un cliente de OAuth de uso personal, creado por Andrés Duque para
+  acceder a su propio Google Drive desde su computador mediante
+  <a href="https://rclone.org">rclone</a>, un programa de código abierto. No es un servicio
+  ofrecido a terceros, no tiene usuarios además de su autor y no se distribuye.</p>
+
+  <h2>Qué datos se tratan</h2>
+  <p>La aplicación solicita el permiso de Google Drive del propio titular de la cuenta para
+  leer y escribir sus archivos. Todo el tratamiento ocurre en el computador del titular:</p>
+  <ul>
+    <li>Las credenciales de acceso que devuelve Google se guardan localmente, en el archivo de
+    configuración de rclone del usuario.</li>
+    <li>Los archivos que se copian o sincronizan viajan directamente entre Google Drive y ese
+    computador.</li>
+    <li>No existe ningún servidor intermedio operado por el autor de esta aplicación.</li>
+  </ul>
+
+  <h2>Qué no se hace</h2>
+  <ul>
+    <li>No se recopilan datos de otras personas.</li>
+    <li>No se comparten, venden ni transfieren datos a terceros.</li>
+    <li>No se usan los datos de Google para publicidad, perfilamiento ni entrenamiento de
+    modelos.</li>
+    <li>No se conservan copias fuera del equipo del titular ni de su propio Google Drive.</li>
+  </ul>
+
+  <h2>Uso limitado</h2>
+  <p>El uso de la información obtenida de las API de Google se ajusta a la
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Datos
+  del Usuario de los Servicios de API de Google</a>, incluidos sus requisitos de uso limitado.</p>
+
+  <h2>Revocar el acceso</h2>
+  <p>El titular puede retirar el permiso en cualquier momento desde
+  <a href="https://myaccount.google.com/permissions">Cuenta de Google → Aplicaciones de terceros
+  con acceso a la cuenta</a>. Al revocarlo, las credenciales guardadas dejan de ser válidas y la
+  aplicación pierde todo acceso.</p>
+
+  <h2>Contacto</h2>
+  <p><a href="mailto:andresfduque@gmail.com">andresfduque@gmail.com</a></p>
+
+  <footer>
+    <a href="./">Inicio</a> · <a href="terminos.html">Términos del servicio</a>
+  </footer>
+</main>
+</body>
+</html>

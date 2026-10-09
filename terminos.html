@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Términos del servicio — rclone personal</title>
+<style>
+  :root { color-scheme: light dark; --fondo:#ffffff; --texto:#1e293b; --suave:#64748b; --linea:#e2e8f0; }
+  @media (prefers-color-scheme: dark) { :root { --fondo:#0f172a; --texto:#e2e8f0; --suave:#94a3b8; --linea:#1e293b; } }
+  body { background:var(--fondo); color:var(--texto); font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+         line-height:1.65; margin:0; padding:3rem 16px; }
+  main { max-width:44rem; margin:0 auto; }
+  h1 { font-size:1.6rem; margin:0 0 .25rem; }
+  .fecha { color:var(--suave); font-size:.9rem; margin-bottom:2rem; }
+  h2 { font-size:1.1rem; margin-top:2.25rem; }
+  ul { padding-left:1.2rem; }
+  footer { margin-top:3rem; padding-top:1rem; border-top:1px solid var(--linea); color:var(--suave); font-size:.9rem; }
+  a { color:#31849b; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Términos del servicio</h1>
+  <p class="fecha">Aplicación «rclone personal» · 9 de octubre de 2026</p>
+
+  <h2>Alcance</h2>
+  <p>«rclone personal» es un cliente de OAuth creado por Andrés Duque para su propio uso, con el
+  fin de acceder a su Google Drive desde sus equipos mediante
+  <a href="https://rclone.org">rclone</a>. No se ofrece a terceros, no se comercializa y no
+  admite registro de otros usuarios.</p>
+
+  <h2>Uso permitido</h2>
+  <ul>
+    <li>El único usuario autorizado es el titular de la cuenta de Google que concede el permiso.</li>
+    <li>El acceso se limita a los archivos de ese titular en Google Drive.</li>
+    <li>El uso debe respetar los
+    <a href="https://policies.google.com/terms">Términos del Servicio de Google</a> y las
+    políticas de las API de Google.</li>
+  </ul>
+
+  <h2>Sin garantía</h2>
+  <p>La aplicación se entrega «tal cual», sin garantía de ninguna clase. El software subyacente
+  es rclone, distribuido bajo licencia MIT por sus propios autores, ajenos a esta aplicación.
+  El titular es responsable de sus copias de respaldo: una sincronización en un solo sentido
+  puede eliminar en destino lo que no exista en el origen.</p>
+
+  <h2>Responsabilidad</h2>
+  <p>El autor no responde por pérdida de datos, interrupciones del servicio de Google ni daños
+  derivados del uso de la aplicación.</p>
+
+  <h2>Fin del acceso</h2>
+  <p>El titular puede revocar el permiso en cualquier momento desde
+  <a href="https://myaccount.google.com/permissions">Cuenta de Google → Aplicaciones de terceros
+  con acceso a la cuenta</a>. El autor puede eliminar el cliente de OAuth sin aviso, con lo cual
+  la aplicación deja de funcionar.</p>
+
+  <h2>Contacto</h2>
+  <p><a href="mailto:andresfduque@gmail.com">andresfduque@gmail.com</a></p>
+
+  <footer>
+    <a href="./">Inicio</a> · <a href="privacidad.html">Política de privacidad</a>
+  </footer>
+</main>
+</body>
+</html>
